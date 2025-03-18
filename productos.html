@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #ff69b4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .producto {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .producto h3 {
+            margin: 10px 0;
+        }
+        .producto p {
+            color: #555;
+        }
+        .boton {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #ff69b4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Cosméticos</h1>
+    </header>
+    <div class="container">
+        <div class="productos">
+            <div class="producto">
+                <img src="paletasombras.jpg" alt="sombras">
+                <h3>Paleta de Sombras</h3>
+                <p>$239.99</p>
+                <a href="#" class="boton">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="rubores.jpg" alt="Blush">
+                <h3>Rubor en Polvo</h3>
+                <p>$70.00</p>
+                <a href="#" class="boton">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="rimel.jpg" alt="Rímel">
+                <h3>Rímel Voluminizador</h3>
+                <p>$50.00</p>
+                <a href="#" class="boton">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="polvocompacto.jpg" alt="Polvo compacto">
+                <h3>Polvo Compacto</h3>
+                <p>$99.99</p>
+                <a href="#" class="boton">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="iluminador.jpg" alt="Iluminador">
+                <h3>Iluminador en Crema</h3>
+                <p>$70.00</p>
+                <a href="#" class="boton">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="contornos.jpg" alt="Contorno">
+                <h3>Paleta de Contornos</h3>
+                <p>$229.99</p>
+                <a href="#" class="boton">Comprar</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
